@@ -1,0 +1,6 @@
+//Apuntes de Git
+
+git init -- inicializar un proyecto nuevo de git
+git add . -- Agregar los archivos a git (el punto indica a todos los archivos, en caso de solo querer solo 1 archivo cambiar el punto por el nombre del archivo)
+git commit -m "Mensaje" --- comando para indicar los cambios realizados 
+git push --- subir al repositorio remoto
