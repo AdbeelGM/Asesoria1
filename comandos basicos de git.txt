@@ -4,3 +4,18 @@ git init -- inicializar un proyecto nuevo de git
 git add . -- Agregar los archivos a git (el punto indica a todos los archivos, en caso de solo querer solo 1 archivo cambiar el punto por el nombre del archivo)
 git commit -m "Mensaje" --- comando para indicar los cambios realizados 
 git push --- subir al repositorio remoto
+git push origin "rama" ---- subir cambios de una rama
+git pull origin "rama" --- bajar cambios de una rama
+
+//
+git pull --- bajar cambios del repo remoto
+git status --- ver el estado del repo local
+git branch --- ver las ramas que existen
+git branch "rama" --- crear una nueva rama
+git checkout "rama" --- cambiar a rama seleccionada 
+ 
+
+//
+
+git restore . --- restaura archivos del working
+git restore --staged . --- restaura archivos del stating
