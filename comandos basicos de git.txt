@@ -20,5 +20,4 @@ git checkout "rama" --- cambiar a rama seleccionada
 git restore . --- restaura archivos del working
 git restore --staged . --- restaura archivos del stating
 
-
-hola mundo
+// git log --- ver historial de commits
